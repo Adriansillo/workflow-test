@@ -30,4 +30,5 @@ jobs:
     - name: Setup Terraform
       uses: hashicorp/setup-terraform@v2
     
-    - run: echo | pwd
+    - run: ls
+    - run: echo | ls
