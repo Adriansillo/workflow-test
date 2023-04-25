@@ -22,7 +22,6 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: ${{ github.event.inputs.workspace_folder }}
 
     steps:
     - name: Checkout
